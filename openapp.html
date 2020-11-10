@@ -1,5 +1,4 @@
 <head>
-    <!-- <meta http-equiv='refresh' content='0; URL=lelangindong:idlelang?id=1'> -->
     <script>
 
 const queryString = window.location.search;
@@ -10,14 +9,14 @@ const idLelang = urlParams.get('idlelang')
 
 
            const url = window.location.replace("lelangindong:idlelang?id=" + idLelang)
-                
     console.log(url == undefined);        
 
+    console.log(url);
         if (url == undefined) {
          
 console.log("undefined");
 
-window.open("https://testflight.apple.com/join/aF8z6vyw", "_self")
+window.location.replace("https://testflight.apple.com/join/aF8z6vyw")
         }
        
     </script>
