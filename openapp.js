@@ -1,1 +1,3 @@
-window.location.href = "https://www.facebook.com/";
+<script>
+window.location.replace('lelangindong:idlelang?id=1');
+</script>
