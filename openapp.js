@@ -1,0 +1,1 @@
+window.location.href = "lelangindong:idlelang?id="slrej123";
