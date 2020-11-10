@@ -12,7 +12,7 @@ const idLelang = urlParams.get('idlelang')
 const url = window.open("lelangindong:idlelang?id=" + idLelang, "_self")
         // const urlOpen = window.open("lelangindong:idlelang?id=","_self")
         console.log(url);
-        if (!url.closed) {
+        if (url.closed) {
          
 // console.log(urlConcat);
 
