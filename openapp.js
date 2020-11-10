@@ -1,1 +1,1 @@
-window.location.href = "lelangindong:idlelang?id="slrej123";
+window.location.href = "https://www.facebook.com/";
