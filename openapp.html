@@ -8,13 +8,14 @@ const urlParams = new URLSearchParams(queryString);
 
 const idLelang = urlParams.get('idlelang')
 
-// const urlConcat = "lelangindong:idlapak?id=".concat(idLelang)
-const url = window.open("lelangindong:idlelang?id=" + idLelang, "_self")
-        // const urlOpen = window.open("lelangindong:idlelang?id=","_self")
-        console.log(url);
-        if (url.closed) {
+
+           const url = window.location.replace("lelangindong:idlelang?id=" + idLelang)
+                
+    console.log(url == undefined);        
+
+        if (url == undefined) {
          
-// console.log(urlConcat);
+console.log("undefined");
 
 window.open("https://testflight.apple.com/join/aF8z6vyw", "_self")
         }
