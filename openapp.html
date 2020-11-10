@@ -1,21 +1,22 @@
 <head>
     <!-- <meta http-equiv='refresh' content='0; URL=lelangindong:idlelang?id=1'> -->
     <script>
-        const urlOpen = window.open("lelangindong:idlelang?id=","_self")
 
-        if (urlOpen.closed) {
-            const queryString = window.location.search;
+const queryString = window.location.search;
 
 const urlParams = new URLSearchParams(queryString);
 
 const idLelang = urlParams.get('idlelang')
 
-const urlConcat = "lelangindong:idlapak?id=".concat(idLelang)
+// const urlConcat = "lelangindong:idlapak?id=".concat(idLelang)
 const url = window.open("lelangindong:idlelang?id=" + idLelang, "_self")
-console.log(urlConcat);
-        } else {
-console.log("TEST FLIGHT");
-            window.open("https://testflight.apple.com/join/aF8z6vyw", "_self")
+        // const urlOpen = window.open("lelangindong:idlelang?id=","_self")
+        console.log(url);
+        if (!url.closed) {
+         
+// console.log(urlConcat);
+
+// window.open("https://testflight.apple.com/join/aF8z6vyw", "_self")
         }
        
     </script>
